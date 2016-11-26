@@ -1,0 +1,13 @@
+ To get info about current status of working directory use git status
+ >git status
+ or for less detail
+ >git status -s      //s for --short
+
+ #Say you modifed a file and its not been stage. You want to see exactly what content has been changed
+ >git diff
+# Remeber git diff will not show changes since last commit , it would only show that changes that has not be staged.
+So git diff will show difference between a file between staged and unstaged state.
+
+ #say you stage a file and want to see what actual lines would be committed
+ >git diff --staged
+ So git diff --staged will show changes the are going to be commited.

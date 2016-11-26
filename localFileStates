@@ -8,3 +8,13 @@ Once we add them , they will be in staged state or tracked state.
 To remove the file form staged back to untracked 
 >git rm --cached filename
 
+If you modify a file which was in last commit, that file will be in modifed state(tracked state).
+However if you ever want to remove the modification and goto earlier state then run
+>git checkout -- modifiefFileName
+
+Once we add it, it will be staged state.
+If you need to change the status back to modifed state
+>git reset head stageFileName
+
+#To remove from staged stage to back
+>git rm --cached filename

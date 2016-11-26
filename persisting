@@ -1,0 +1,6 @@
+# to commit file
+>git add .
+>git commit -m 'my message'
+
+# to skip adding or staging files
+>git commit -a -m ' my message'

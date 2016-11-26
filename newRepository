@@ -1,0 +1,12 @@
+#Creating new repository locally and then pushing to remote
+>echo "something">README
+>git init
+>git add README
+>git commit -m 'first commit'
+>git remote add origin "http://github.com/mygit/myrepo.git"
+>git push -u  origin  master
+
+#Cloning remote Repository
+>git clone 'http://github.com/mygit/myrepo.git'
+
+
