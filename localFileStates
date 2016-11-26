@@ -1,0 +1,10 @@
+Local Working directory files canbe in either tracked or untracked state.
+
+Tracked files are file that were in the last snapshot, thet can be unmodified,modified , or staged.
+Untracked files are any files in your wd that were not un your kast snapshot and not in your staging area.
+
+Basically if you create a new file, they will be untracked since they were not in last commit.
+Once we add them , they will be in staged state or tracked state.
+To remove the file form staged back to untracked 
+>git rm --cached filename
+
