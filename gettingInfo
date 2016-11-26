@@ -11,3 +11,30 @@ So git diff will show difference between a file between staged and unstaged stat
  #say you stage a file and want to see what actual lines would be committed
  >git diff --staged
  So git diff --staged will show changes the are going to be commited.
+
+ #Checking log
+ >git log
+ 
+ #To see content changed in each commit
+ >git log -p
+
+ #To limit commit list use
+ >git log -p -2
+
+
+#To only files that are changes in each commit
+>git log --stat
+
+#To get one liner
+>git log --pretty=oneline
+
+#To show graph view
+>git log --pretty=oneline --graph
+
+
+
+#To limit log output
+>git log --since=2.weeks
+# We can use --until,--author,--committer, -S
+
+sk
