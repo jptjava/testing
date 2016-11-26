@@ -1,0 +1,10 @@
+#To add changes to previous commit before pushing it
+>git add newfile
+>git commit --amend
+
+
+#Unstaging a staged file
+>git reset HEAD stagefilename
+
+#Revert your modification to last commit
+>git checkout -- modifiedFilename
