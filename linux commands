@@ -11,6 +11,31 @@
 OR
 #locate  file  
 //locate does lookup from a database , so to update the db use #updatedb
+#locate -i Filename
+#locate -b /home filename
+
+-read
+#cat filename
+
+
+-change permission on files/folder for owner-group-world
+#chmod 541 file
+
+-change filer owner
+#chown owner:group filename
+
+-remove file folder
+#rm -rf foldername
+#rm filename
+
+-rename file
+#mv oldfilename newfilename
+
+-using echo
+#echo -e "hi \n how are you" > somefile
+
+-using grep
+grep -i pattern
 
 
 
