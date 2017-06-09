@@ -1,9 +1,12 @@
 -display
 #ll is same as ls -l
+#ls [Rr]*
+//! to negate
 
 -creating file
-# touch
-
+# touch filename
+#touch filename1, filename2
+#touch filename[1-2]
 
 -search file
 #find /home/ -name "Filename"
@@ -36,6 +39,67 @@ OR
 
 -using grep
 grep -i pattern
+
+-installing
+#rpm -iv pakage.rpm
+
+
+-check user
+#whoami
+#id
+
+
+-there is stdinput,output,err
+
+
+-using result of command as input
+#cd /home/$(whoami)
+
+-redirect
+#whoami > filename
+#whoami >> filename  //this will append instead of overwrite
+
+-redirect error
+# ls nonexistentfile 2> errorlogfile
+
+-redirect std output and error two different files
+#find -iname test > stdoutputlog 2> stderroroutputlog
+
+#whoami > /dev/null //redirect output to nowhere
+
+
+-finding process id and killing
+# ps -ef | grep firefox
+#kill 4567
+
+
+-filter using awk
+#ps -ef | awk -F" " '{print $2}'  | rev  //here rev reverses
+
+-vi commands
+-to cut a line
+#dd
+-to cut 2 lines
+#2dd
+-to paste the line
+#p
+-to yank/cop
+#yy
+-to search a pattern
+#:/is
+#:?is
+-to move to end of line
+#$
+-to move to the beining
+#^
+
+-to got specific line
+#:1
+
+-to undo
+#u
+
+
 
 
 
