@@ -1,0 +1,16 @@
+-display
+#ll is same as ls -l
+
+-creating file
+# touch
+
+
+-search file
+#find /home/ -name "Filename"
+#find /home/ -iname "filename"
+OR
+#locate  file  
+//locate does lookup from a database , so to update the db use #updatedb
+
+
+
